@@ -1,0 +1,12 @@
+.light{
+    background: var(--background);
+}
+
+.dark{
+    background: var(--background-dark);
+    color: var(--background);
+}
+
+.navbar-dark{
+    
+}
