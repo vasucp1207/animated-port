@@ -1,0 +1,30 @@
+import './App.css';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import About from './pages/About';
+import Home from './pages/Home';
+import Project from './pages/Project';
+import styled from 'styled-components';
+
+function App() {
+
+  return (
+    <div>
+      <Nav>
+        <Navbar />
+      </Nav>
+      <Home />
+      <About />
+      <Project />
+      <Contact />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
+
+const Nav = styled.div`
+  position: fixed;
+`
